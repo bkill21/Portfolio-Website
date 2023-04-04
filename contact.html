@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style> 
+
+
+    </style>
+
+</head>
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h2 style="font: size 70px;">Ben <br> Kill</h2>
+        </div>
+    </div>
+    <nav> <!--Navigation Bar-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href= "coding_career.html"> Coding Career</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="contact-form">
+            <article>
+                <h2>Contact me below:</h2>
+                <hr>
+                <form action="/action_page.php" method="post" target="_parent">
+                    <label class="contact_labels" for="name"><strong>Name</strong></label>
+                    <br>
+                    <input class="contact_fields" type="text" id="amount" placeholder="Full name...">
+                    <br>
+                    <label class="contact_labels" for="email"><strong>Email</strong></label>
+                    <br>
+                    <input class="contact_fields" type="email" id="email" placeholder="Your email address...">
+                    <br>
+                    <label class="contact_labels" for="message"><strong>Message for Ben</strong></label>
+                    <br>
+                    <textarea class="contact_fields"
+                    placeholder="**Form not currently functional**"></textarea>
+                    <br>
+                    <input class="contact_labels" type="submit" value="Submit Response">
+                </form>
+            </article>
+        </div>
+        <div id="side">
+            <article class="side-articles" id="profile">
+                <img id="profile-image" src="images/profile-pic.jpeg">
+                <div id="profile-details">
+                    <h2>Ben Kill</h2>
+                    <ul>
+                        <li>308 Negra Arroya Ln</li>
+                        <li>Albuquerque, New Mexico 87111</li>
+                        <li>(505) 117-8987</li>
+                        <li><a href="mailto:therealheisenberg@gmail.com">therealheisenberg@gmail.com</a></li>
+                    </ul>
+                </div>
+            </article>
+           
+        </div>
+    </main>
+</body>
+</html>

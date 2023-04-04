@@ -1,0 +1,144 @@
+body, html {
+   height: 100%;
+   margin: 0px;
+}
+
+body {
+    background-color:aqua
+}
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul { 
+    background-color:rgb(93, 151, 178);
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    padding: 25px;
+}
+
+nav {
+    display: block;
+    color: rgb(251, 249, 249);
+    position: sticky;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a.active {
+    color:black;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(0,0,0,0.5)), 
+        url("../images/troll-submarine.png");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0px;
+}
+
+.hero-text {
+    color: white;
+    text-align: left;
+    position: relative;
+    margin: 0px;
+}
+
+#main {
+    width: 70%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#side {
+    width: 20%;
+    float: right;
+    height: auto;
+    padding: 20px;
+    position: relative;
+}
+
+#profile-image {
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(93, 151, 178);
+}
+
+#profile {
+    text-align: center;
+}
+
+.side-articles ul {
+    list-style-type: none;
+    padding-left: 0px; 
+}
+
+#profile h2 {
+    display: inline;
+}
+
+#profile-details {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.side-articles, .main-articles {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles {
+    background-color:rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.main-articles {
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+
+.contact_fields {
+    padding: 0px 5px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(93, 151, 178);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+  }
+  
+  textarea.contact_fields {
+    width: 40%;
+    height: 100px;
+    resize: none;
+  }
+
+  .contact_labels {
+    margin-left: 10px;
+  }
+
+  h2 {
+    margin-left: 10px;
+  }
+
+  #contact-form {
+    width: 65%;
+    margin: 0px;
+  }
